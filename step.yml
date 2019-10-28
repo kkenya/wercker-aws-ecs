@@ -1,0 +1,44 @@
+name: aws-ecs
+version: 0.5.0
+summary: Deploy service to ECS
+category: imported
+tags:
+- aws
+- ecs
+properties:
+- name: key
+  type: string
+  required: true
+  default: ""
+- name: secret
+  type: string
+  required: true
+  default: ""
+- name: region
+  type: string
+  required: false
+  default: ""
+- name: task-definition-name
+  type: string
+  required: true
+  default: ""
+- name: task-definition-file
+  type: string
+  required: true
+  default: ""
+- name: task-definition-volumes-file
+  type: string
+  required: false
+  default: ""
+- name: execution-role-arn
+  type: string
+  required: false
+  default: ""
+- name: cluster-name
+  type: string
+  required: true
+  default: ""
+- name: service-name
+  type: string
+  required: true
+  default: ""
