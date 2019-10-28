@@ -89,4 +89,5 @@ deploy:
         task-definition-name: hello
         task-definition-file: /app/hello-task-definition.json
         task-definition-volumes-file: /app/hello-task-definition-volumes.json
+        execution_role_arn: ecsTaskExecutionRole
 ```

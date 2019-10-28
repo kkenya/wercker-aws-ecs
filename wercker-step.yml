@@ -26,6 +26,9 @@ properties:
   task-definition-volumes-file:
     type: string
     required: false
+  execution-role-arn:
+    type: string
+    required: false
 
   # Step 3: Defining service (optional)
   cluster-name:
